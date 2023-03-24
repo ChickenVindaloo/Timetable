@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af234de8-dbae-4881-add2-f3ba7f3fb1cc" name="Changes" comment="Added interface">
+    <list default="true" id="af234de8-dbae-4881-add2-f3ba7f3fb1cc" name="Changes" comment="Changed object names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Timetable.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timetable.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Timetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timetable.java" afterDir="false" />
@@ -46,6 +46,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Timetable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Timetable" />
+      <module name="Timetable" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Timetable" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679646710244</updated>
-      <workItem from="1679646711976" duration="2310000" />
+      <workItem from="1679646711976" duration="5538000" />
     </task>
     <task id="LOCAL-00001" summary="Added interface">
       <created>1679649108915</created>
@@ -63,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679649108915</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed object names">
+      <created>1679649846594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679649846594</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added interface" />
+    <MESSAGE value="Changed object names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed object names" />
   </component>
 </project>
