@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af234de8-dbae-4881-add2-f3ba7f3fb1cc" name="Changes" comment="Changed object names">
+    <list default="true" id="af234de8-dbae-4881-add2-f3ba7f3fb1cc" name="Changes" comment="First runnable version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Timetable.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timetable.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Timetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timetable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Timetable">
+    <configuration name="Timetable (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Timetable" />
+      <module name="Timetable" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Timetable (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Timetable" />
+      <module name="Timetable" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Timetable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Timetable" />
       <module name="Timetable" />
@@ -57,6 +70,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Timetable" />
+        <item itemvalue="Application.Timetable (2)" />
+        <item itemvalue="Application.Timetable (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -68,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679646710244</updated>
-      <workItem from="1679646711976" duration="5538000" />
+      <workItem from="1679646711976" duration="7403000" />
     </task>
     <task id="LOCAL-00001" summary="Added interface">
       <created>1679649108915</created>
@@ -84,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679649846594</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First runnable version">
+      <created>1679653582979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679653582979</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added interface" />
     <MESSAGE value="Changed object names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed object names" />
+    <MESSAGE value="First runnable version" />
+    <option name="LAST_COMMIT_MESSAGE" value="First runnable version" />
   </component>
 </project>
