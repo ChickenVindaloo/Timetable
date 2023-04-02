@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af234de8-dbae-4881-add2-f3ba7f3fb1cc" name="Changes" comment="First runnable version">
+    <list default="true" id="af234de8-dbae-4881-add2-f3ba7f3fb1cc" name="Changes" comment="Can add participants">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Timetable.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timetable.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Timetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timetable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/wizar/IdeaProjects/Timetable",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,7 +85,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679646710244</updated>
-      <workItem from="1679646711976" duration="7403000" />
+      <workItem from="1679646711976" duration="10384000" />
+      <workItem from="1679661036032" duration="591000" />
+      <workItem from="1680424064240" duration="7154000" />
     </task>
     <task id="LOCAL-00001" summary="Added interface">
       <created>1679649108915</created>
@@ -106,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679653582979</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Can add participants">
+      <created>1679655656963</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655656963</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +127,7 @@
     <MESSAGE value="Added interface" />
     <MESSAGE value="Changed object names" />
     <MESSAGE value="First runnable version" />
-    <option name="LAST_COMMIT_MESSAGE" value="First runnable version" />
+    <MESSAGE value="Can add participants" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can add participants" />
   </component>
 </project>

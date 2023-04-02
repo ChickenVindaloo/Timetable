@@ -6,21 +6,25 @@ import java.awt.event.ActionListener;
 
 public class Timetable extends JFrame {
     private JTextField nameInput;
-    private JSpinner hours;
-    private JSpinner minutes;
+    SpinnerNumberModel hourModel = new SpinnerNumberModel(12, 0, 23, 1);
+    private JSpinner hoursSpinner;
+    SpinnerNumberModel minuteModel = new SpinnerNumberModel(1, 0, 59, 1);
+    private JSpinner minutesSpinner;
     private JButton addBtn;
     private JTextArea participantList;
     private JTextArea messageLog;
     private JPanel mainPanel;
 
     public Timetable() {
-    addBtn.addActionListener(new ActionListener() {
+        hoursSpinner.setModel(hourModel);
+        minutesSpinner.setModel(minuteModel);
+        addBtn.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent actionEvent) {
             switch (nameInput.getText()) {
                 case " ", "", "enter a name here" -> messageLog.append("No valid name was entered \n");
                 default -> {
-                    participantList.append(nameInput.getText() + " at " + hours.getValue() + ':' + minutes.getValue());
+                    participantList.append(nameInput.getText() + " at " + hoursSpinner.getValue() + ':' + minutesSpinner.getValue() + "\n");
                     messageLog.append("The participant was added \n");
                 }
             }
@@ -37,3 +41,4 @@ public class Timetable extends JFrame {
         timetable.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
+
